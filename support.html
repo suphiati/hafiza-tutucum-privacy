@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brain Master — Support</title>
+  <meta name="description" content="Support for Brain Master (Hafıza Tutucum): contact, backups, AI features, reminders." />
+  <style>
+    :root { --brand: #5C5EF2; --text: #1c1c28; --muted: #5b5b6b; --bg: #f7f7fb; --card: #ffffff; --border: #e7e7ef; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6; -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+    header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+    .logo { width: 44px; height: 44px; border-radius: 12px; background: var(--brand);
+      display: flex; align-items: center; justify-content: center; color: #fff; font-size: 22px; }
+    h1 { font-size: 1.6rem; margin: 0; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 8px 24px 24px; margin-bottom: 20px; }
+    .card > h2:first-child { margin-top: 20px; font-size: 1.3rem; }
+    h2 { font-size: 1.1rem; margin: 28px 0 8px; }
+    h3 { font-size: 1rem; margin: 22px 0 6px; color: var(--text); }
+    p, li { color: var(--muted); }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .contact { background: #eef0ff; border: 1px solid #dfe2ff; border-radius: 12px; padding: 16px 20px; margin: 20px 0; }
+    .contact p { color: #33336b; margin: 0; font-weight: 500; }
+    a { color: var(--brand); }
+    .lang { font-size: 0.9rem; margin: 0 0 8px; }
+    footer { color: var(--muted); font-size: 0.85rem; text-align: center; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="lang"><a href="#en">English</a> · <a href="#tr">Türkçe</a></p>
+    <header>
+      <div class="logo">🧠</div>
+      <h1>Brain Master — Support</h1>
+    </header>
+
+    <div class="contact">
+      <p>Questions, bug reports or feedback? Email us at <a href="mailto:hafizatutucu@gmail.com">hafizatutucu@gmail.com</a> — we usually reply within a few days.<br />
+      Soru, hata bildirimi veya öneri için: <a href="mailto:hafizatutucu@gmail.com">hafizatutucu@gmail.com</a></p>
+    </div>
+
+    <div class="card" id="en">
+      <h2>Frequently asked questions</h2>
+
+      <h3>Where are my notes stored?</h3>
+      <p>Only on your device. Brain Master has no server and needs no account; your notes, reminders and images are never uploaded.</p>
+
+      <h3>How do I back up my notes or move them to a new phone?</h3>
+      <p>Open <strong>Settings → Backup → Export backup</strong> and save the file somewhere safe (on iPhone, for example in Files or iCloud Drive). On the new phone, open <strong>Settings → Backup → Restore from backup</strong> and pick that file. Restoring adds the backup to your existing notes — only missing or newer items are merged.</p>
+
+      <h3>How do the AI features work?</h3>
+      <p>Semantic search, “Ask your notes”, summaries and image-to-text all run on your phone. The first time you turn on an AI feature, the app downloads its AI model once (each model is roughly 0.4–1.5 GB — Wi-Fi recommended); after that it works offline. Larger models need a phone with more memory, so on older devices some AI options may not be offered.</p>
+
+      <h3>My reminders don’t arrive</h3>
+      <p>Make sure notifications are allowed for the app in your phone’s settings (iPhone: Settings → Notifications → Brain Master). Reminders are scheduled on your device, so they work without internet.</p>
+
+      <h3>How do I delete my data?</h3>
+      <p>Delete individual notes inside the app, or delete the app to remove all of its data from your device. On iPhone there is no account and nothing is stored anywhere else. Android users who turned on Google Drive backup can find the extra steps on the <a href="./delete.html">data deletion page</a>.</p>
+
+      <h3>Privacy</h3>
+      <p>Read the full <a href="./en.html">privacy policy</a>. In short: the iPhone app collects no data.</p>
+    </div>
+
+    <div class="card" id="tr">
+      <h2>Sık sorulan sorular</h2>
+
+      <h3>Notlarım nerede saklanıyor?</h3>
+      <p>Yalnızca cihazında. Hafıza Tutucum'un sunucusu yoktur ve hesap gerektirmez; notların, hatırlatmaların ve görsellerin hiçbir yere yüklenmez.</p>
+
+      <h3>Notlarımı nasıl yedeklerim veya yeni telefona taşırım?</h3>
+      <p><strong>Ayarlar → Yedekleme → Yedeği dışa aktar</strong> ile dosyayı güvenli bir yere kaydet (iPhone'da örneğin Dosyalar'a veya iCloud Drive'a). Yeni telefonda <strong>Ayarlar → Yedekleme → Yedekten geri yükle</strong> ile bu dosyayı seç. Geri yükleme yedeği mevcut notlarına ekler — yalnızca eksik veya daha yeni olanlar birleştirilir.</p>
+
+      <h3>Yapay zekâ özellikleri nasıl çalışıyor?</h3>
+      <p>Anlamsal arama, "Notlarına sor", özetleme ve görselden metin çıkarma telefonunun üzerinde çalışır. Bir yapay zekâ özelliğini ilk açtığında uygulama modeli bir kez indirir (her model yaklaşık 0,4–1,5 GB — Wi-Fi önerilir); sonrasında çevrimdışı çalışır. Büyük modeller daha fazla bellek gerektirdiği için eski cihazlarda bazı yapay zekâ seçenekleri sunulmayabilir.</p>
+
+      <h3>Hatırlatmalarım gelmiyor</h3>
+      <p>Telefonunun ayarlarında uygulamanın bildirimlerine izin verildiğinden emin ol (iPhone: Ayarlar → Bildirimler → Hafıza Tutucum). Hatırlatmalar cihazında planlanır, bu yüzden internetsiz de çalışır.</p>
+
+      <h3>Verilerimi nasıl silerim?</h3>
+      <p>Notları uygulamanın içinden tek tek silebilir ya da uygulamayı silerek tüm verilerini cihazından kaldırabilirsin. iPhone'da hesap yoktur ve hiçbir şey başka bir yerde saklanmaz. Google Drive yedeğini açmış Android kullanıcıları ek adımları <a href="./delete.html">veri silme sayfasında</a> bulabilir.</p>
+
+      <h3>Gizlilik</h3>
+      <p><a href="./index.html">Gizlilik politikasının</a> tamamını oku. Kısaca: iPhone uygulaması hiçbir veri toplamaz.</p>
+    </div>
+
+    <footer>© 2026 Brain Master · Hafıza Tutucum</footer>
+  </div>
+</body>
+</html>

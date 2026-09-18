@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hafıza Tutucum — Gizlilik Politikası</title>
-  <meta name="description" content="Hafıza Tutucum gizlilik politikası: notlarınız cihazınızda kalır; reklamlar Google AdMob tarafından sunulur." />
+  <meta name="description" content="Hafıza Tutucum gizlilik politikası: notlarınız cihazınızda kalır. iPhone uygulaması hiçbir veri toplamaz; Android'de reklamlar Google AdMob tarafından sunulur." />
   <style>
     :root { --brand: #5C5EF2; --text: #1c1c28; --muted: #5b5b6b; --bg: #f7f7fb; --card: #ffffff; --border: #e7e7ef; }
     * { box-sizing: border-box; }
@@ -19,60 +19,102 @@
       display: flex; align-items: center; justify-content: center; color: #fff; font-size: 22px; }
     h1 { font-size: 1.6rem; margin: 0; }
     .date { color: var(--muted); font-size: 0.9rem; margin: 4px 0 24px; }
-    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 8px 24px 24px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 8px 24px 24px; margin-bottom: 20px; }
+    .card > h2:first-child { margin-top: 20px; font-size: 1.3rem; }
     h2 { font-size: 1.1rem; margin: 28px 0 8px; }
+    h3 { font-size: 1rem; margin: 22px 0 6px; }
     p, li { color: var(--muted); }
     ul { padding-left: 20px; }
     li { margin-bottom: 6px; }
     .summary { background: #eef0ff; border: 1px solid #dfe2ff; border-radius: 12px; padding: 16px 20px; margin: 20px 0; }
-    .summary p { color: #33336b; margin: 0; font-weight: 500; }
+    .summary p { color: #33336b; margin: 0 0 8px; font-weight: 500; }
+    .summary p:last-child { margin-bottom: 0; }
     a { color: var(--brand); }
+    .lang { font-size: 0.9rem; margin: 0 0 8px; }
     footer { color: var(--muted); font-size: 0.85rem; text-align: center; margin-top: 32px; }
   </style>
 </head>
 <body>
   <div class="wrap">
+    <p class="lang"><a href="./en.html">English</a> · <a href="./support.html">Destek</a></p>
     <header>
       <div class="logo">🧠</div>
       <h1>Hafıza Tutucum — Gizlilik Politikası</h1>
     </header>
-    <p class="date">Yürürlük tarihi: 29 Temmuz 2026</p>
+    <p class="date">Yürürlük tarihi: 18 Eylül 2026</p>
+
+    <p>Bu politika Hafıza Tutucum uygulamasının (İngilizce adıyla “Brain Master”) iPhone ve Android sürümlerini kapsar. İki sürüm verileri farklı işlediği için her birinin aşağıda ayrı bir bölümü vardır.</p>
 
     <div class="summary">
-      <p>Notlarınız, hatırlatmalarınız ve görselleriniz varsayılan olarak yalnızca cihazınızda saklanır — zorunlu hesap veya sunucu yok. İsterseniz Google ile giriş yaparak notlarınızı yalnızca KENDİ Google Drive alanınızdaki gizli bir uygulama klasörüne yedekleyebilirsiniz; bu tamamen isteğe bağlıdır, girişsiz de uygulama tam çalışır ve yedeklerinize bizim erişimimiz olmaz. Uygulama ücretsiz kalabilmek için reklam gösterir: reklamlar Google AdMob tarafından sunulur ve cihazınızın reklam kimliğini (advertising ID) kullanabilir. Notlarınızın içeriği reklam sağlayıcılarıyla asla paylaşılmaz.</p>
+      <p><strong>iPhone (iOS):</strong> reklam yok, hesap veya giriş yok, takip yok — hiçbir veri toplamıyoruz. Notlarınız, hatırlatmalarınız ve görselleriniz cihazınızda kalır.</p>
+      <p><strong>Android:</strong> notlarınız varsayılan olarak cihazınızda kalır. Ücretsiz kalabilmek için Android uygulaması Google AdMob reklamları gösterir ve notlarınızı kendi Google Drive alanınıza yedeklemek için isteğe bağlı Google ile giriş sunar.</p>
     </div>
 
     <div class="card">
-      <h2>Hangi verileri işliyoruz?</h2>
+      <h2>iPhone uygulaması (iOS)</h2>
+
+      <h3>Hangi verileri topluyoruz?</h3>
+      <p>Hiçbirini. Notlarınız, hatırlatmalarınız ve görselleriniz cihazınızdan hiç çıkmaz; bir sunucuya gönderilmez, internet üzerinde saklanmaz. iOS uygulamasında analiz aracı, reklam veya takip yoktur; hesap ya da giriş de yoktur.</p>
+
+      <h3>Yapay zekâ özellikleri</h3>
+      <p>Anlamsal arama, "Notlarına sor" sohbeti, özetleme ve görselden metin çıkarma (OCR) dâhil tüm yapay zekâ özellikleri cihazınızın üzerinde çalışır. Notlarınız bu işlemler için hiçbir yere gönderilmez.</p>
+      <p>Yapay zekâ modelleri, bir yapay zekâ özelliğini açtığınızda bir kez, herkese açık model deposu Hugging Face'ten (huggingface.co) indirilir. İndirme isteği sizin veya notlarınız hakkında hiçbir bilgi içermez; sonrasında yapay zekâ çevrimdışı çalışır.</p>
+
+      <h3>İzinler</h3>
+      <ul>
+        <li><strong>Bildirimler:</strong> hatırlatmaları zamanında göstermek için (cihazınızda planlanır).</li>
+        <li><strong>Kamera ve fotoğraflar:</strong> notlarınıza görsel eklemek için. Görseller yalnızca cihazınızda saklanır.</li>
+        <li><strong>Mikrofon ve konuşma tanıma (sesli not):</strong> konuşmanızı yazıya dökmek için Apple'ın konuşma tanıma servisini kullanır. Cihazınıza ve dilinize göre ses, Apple tarafından Apple'ın gizlilik politikasına göre işlenebilir; uygulama sesi saklamaz veya başka bir yere göndermez.</li>
+        <li><strong>Takvim:</strong> yalnızca siz bir hatırlatmayı "Takvime ekle" dediğinizde, etkinliği telefonunuzun takvimine yazmak için.</li>
+        <li><strong>Face ID / Touch ID:</strong> yalnızca uygulama kilidini açarsanız. Doğrulamayı iOS yapar; uygulama biyometrik verilerinizi hiçbir zaman görmez.</li>
+        <li><strong>İnternet:</strong> yalnızca isteğe bağlı yapay zekâ modellerini indirmek için. Notlarınız ve yapay zekâ özellikleri internetsiz çalışır.</li>
+      </ul>
+
+      <h3>Veri paylaşımı</h3>
+      <p>Hiçbir şeyi kimseyle paylaşmaz, satmayız — notlarınıza ve verilerinize zaten erişimimiz yok.</p>
+
+      <h3>Yedekleme ve silme</h3>
+      <p>"Yedeği dışa aktar" (Ayarlar → Yedekleme) ile verilerinizi seçtiğiniz bir dosyaya, örneğin Dosyalar'a veya iCloud Drive'a aktarabilirsiniz. Dosyayı nereye kaydedeceğinize veya göndereceğinize tamamen siz karar verirsiniz; dosya bizim erişimimizde değildir. Uygulamayı silmek, tüm verilerini cihazınızdan siler.</p>
+
+      <h3>Çocukların gizliliği</h3>
+      <p>iOS uygulaması, çocuklar dâhil hiç kimseden kişisel bilgi toplamaz.</p>
+    </div>
+
+    <div class="card">
+      <h2>Android uygulaması</h2>
+
+      <h3>Hangi verileri işliyoruz?</h3>
       <p>Bulut yedeklemeyi kendiniz açmadığınız sürece notlarınız, hatırlatmalarınız ve görselleriniz cihazınızdan hiç çıkmaz; bir sunucuya gönderilmez, internet üzerinde saklanmaz. Bulut yedeklemeyi açarsanız yalnızca sizin Google Drive hesabınıza bir kopya yazılır (aşağıdaki "Hesap ve yedekleme" bölümüne bakın).</p>
-      <p>Reklamlar için istisna: Google AdMob, reklamları göstermek, ölçmek ve kötüye kullanımı önlemek için cihazınızın reklam kimliğini ve standart reklam verilerini (ör. genel konum/ülke, cihaz türü, reklam etkileşimleri) işleyebilir.</p>
+      <p>Reklamlar için istisna: Google AdMob, reklamları göstermek, ölçmek ve kötüye kullanımı önlemek için cihazınızın reklam kimliğini ve standart reklam verilerini (ör. genel konum/ülke, cihaz türü, reklam etkileşimleri) işleyebilir. Notlarınızın içeriği reklam sağlayıcılarıyla asla paylaşılmaz.</p>
 
-      <h2>Yapay zekâ özellikleri</h2>
-      <p>Anlamsal arama, "Notlarına sor" sohbeti, özetleme ve görselden metin çıkarma (OCR) dâhil tüm yapay zekâ özellikleri cihazınızın üzerinde, çevrimdışı çalışır. Notlarınız bu işlemler için hiçbir yere gönderilmez.</p>
+      <h3>Yapay zekâ özellikleri</h3>
+      <p>Anlamsal arama, "Notlarına sor" sohbeti, özetleme ve görselden metin çıkarma (OCR) dâhil tüm yapay zekâ özellikleri cihazınızın üzerinde çalışır. Notlarınız bu işlemler için hiçbir yere gönderilmez. Yapay zekâ modelleri bir kez Hugging Face'ten (huggingface.co) indirilir.</p>
 
-      <h2>Reklamlar</h2>
-      <p>Uygulama, Google AdMob aracılığıyla banner reklamlar gösterir. AdMob; reklamları sunmak, kişiselleştirmek ve dolandırıcılığı önlemek için reklam kimliği gibi tanımlayıcıları kullanabilir. Avrupa Ekonomik Alanı, İngiltere ve İsviçre gibi bölgelerde, kişiselleştirilmiş reklamlar için uygulama açılışında onayınız istenir (Google onay ekranı). Reklam kişiselleştirmesini istediğiniz zaman telefonunuzun ayarlarından yönetebilir, reklam kimliğini sıfırlayabilir veya kişiselleştirmeyi kapatabilirsiniz. Google'ın reklam verilerini nasıl işlediğini <a href="https://policies.google.com/technologies/ads">buradan</a> görebilirsiniz.</p>
+      <h3>Reklamlar</h3>
+      <p>Android uygulaması, Google AdMob aracılığıyla banner reklamlar gösterir. AdMob; reklamları sunmak, kişiselleştirmek ve dolandırıcılığı önlemek için reklam kimliği gibi tanımlayıcıları kullanabilir. Avrupa Ekonomik Alanı, İngiltere ve İsviçre gibi bölgelerde, kişiselleştirilmiş reklamlar için uygulama açılışında onayınız istenir (Google onay ekranı). Reklam kişiselleştirmesini istediğiniz zaman telefonunuzun ayarlarından yönetebilir, reklam kimliğini sıfırlayabilir veya kişiselleştirmeyi kapatabilirsiniz. Google'ın reklam verilerini nasıl işlediğini <a href="https://policies.google.com/technologies/ads">buradan</a> görebilirsiniz.</p>
 
-      <h2>İzinler</h2>
+      <h3>İzinler</h3>
       <ul>
         <li><strong>Bildirimler:</strong> hatırlatmaları zamanında göstermek için (yalnızca cihazınızda).</li>
         <li><strong>Kamera ve galeri:</strong> notlarınıza görsel eklemek için. Görseller yalnızca cihazınızda saklanır.</li>
         <li><strong>Mikrofon (sesli not):</strong> konuşmanızı yazıya dökmek için cihazınızın konuşma tanıma servisini (ör. Google) kullanır. Ses, bu servis tarafından kendi gizlilik politikasına göre işlenir; uygulama sesi saklamaz veya başka bir yere göndermez.</li>
         <li><strong>Takvim:</strong> yalnızca siz bir hatırlatmayı "Takvime ekle" dediğinizde, etkinliği telefonunuzun takvimine yazmak için.</li>
-        <li><strong>İnternet:</strong> reklamları yüklemek için ve (giriş yaptıysanız) bulut yedekleme için. Notlarınız ve yapay zekâ özellikleri internetsiz çalışır.</li>
+        <li><strong>İnternet:</strong> reklamları yüklemek, isteğe bağlı yapay zekâ modellerini indirmek ve (giriş yaptıysanız) bulut yedekleme için. Notlarınız ve yapay zekâ özellikleri internetsiz çalışır.</li>
       </ul>
 
-      <h2>Veri paylaşımı</h2>
+      <h3>Veri paylaşımı</h3>
       <p>Notlarınızı ve içeriğinizi kimseyle paylaşmaz, satmayız — bunlara zaten erişimimiz yok. Yalnızca reklam gösterimi için, yukarıda açıklanan reklam verileri Google AdMob tarafından işlenir.</p>
 
-      <h2>Hesap ve yedekleme (isteğe bağlı)</h2>
+      <h3>Hesap ve yedekleme (isteğe bağlı)</h3>
       <p>"Yedeği dışa aktar" ile verilerinizi sizin seçtiğiniz bir dosyaya aktarabilirsiniz; bu dosyayı nereye kaydedeceğinize veya göndereceğinize tamamen siz karar verirsiniz. Dosya bizim erişimimizde değildir.</p>
       <p>İsterseniz Google ile giriş yapıp bulut yedekleme özelliğini açabilirsiniz. Bu durumda hesabınızı tanımak için Google adınız ve e-posta adresiniz uygulamada kullanılır; notlarınız, hatırlatmalarınız ve görselleriniz ise yalnızca sizin Google Drive hesabınızdaki gizli bir uygulama klasörüne (appDataFolder) yazılır. Bu klasöre yalnızca siz ve bu uygulama erişebilir; bizim sunucularımıza hiçbir şey gönderilmez ve verilerinize erişimimiz olmaz.</p>
       <p>Giriş ve bulut yedekleme tamamen isteğe bağlıdır. İstediğiniz zaman Ayarlar'dan çıkış yapabilir, yedeklemeyi durdurabilir veya hesabınızı ve verilerinizi silebilirsiniz. Silme adımları için: <a href="./delete.html">Hesap ve veri silme</a>.</p>
 
-      <h2>Çocukların gizliliği</h2>
-      <p>Uygulama reklam gösterdiği ve reklam kimliği işlendiği için öncelikli olarak 13 yaş ve üzeri kullanıcılara yöneliktir.</p>
+      <h3>Çocukların gizliliği</h3>
+      <p>Android uygulaması reklam gösterdiği ve reklam kimliği işlendiği için öncelikli olarak 13 yaş ve üzeri kullanıcılara yöneliktir.</p>
+    </div>
 
+    <div class="card">
       <h2>Değişiklikler</h2>
       <p>Bu politikada değişiklik olursa güncel sürümü uygulamanın içinde ve bu sayfada yayımlarız.</p>
 
