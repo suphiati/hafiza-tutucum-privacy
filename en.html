@@ -46,7 +46,7 @@
     <p>This policy covers the Brain Master app (called “Hafıza Tutucum” in Turkish) on iPhone and on Android. The two versions handle data differently, so each has its own section below.</p>
 
     <div class="summary">
-      <p><strong>iPhone (iOS):</strong> no ads, no account or sign-in, no tracking — we collect no data. Your notes, reminders and images stay on your device.</p>
+      <p><strong>iPhone (iOS):</strong> no ads, no account or sign-in, no tracking — we collect no data ourselves. Your notes, reminders and images stay on your device. The only data that leaves it is anonymous technical diagnostics from Google ML Kit when you use image-to-text (see below).</p>
       <p><strong>Android:</strong> your notes stay on your device by default. To stay free, the Android app shows ads from Google AdMob, and it offers an optional Google sign-in to back up to your own Google Drive.</p>
     </div>
 
@@ -54,7 +54,8 @@
       <h2>iPhone app (iOS)</h2>
 
       <h3>What data do we collect?</h3>
-      <p>None. Your notes, reminders and images never leave your device; they are not sent to any server or stored on the internet. The iOS app contains no analytics, no advertising and no tracking, and it has no account or sign-in.</p>
+      <p>We collect nothing ourselves. Your notes, reminders and images never leave your device; they are not sent to any server or stored on the internet. The iOS app contains no advertising and no tracking, and it has no account or sign-in.</p>
+      <p><strong>Google ML Kit diagnostics:</strong> image-to-text (OCR) uses Google ML Kit, which runs on your device. When you use it, ML Kit sends Google anonymous technical diagnostics: device model, iOS and app version, performance metrics (such as processing time), error codes and a per-installation identifier that isn’t tied to you. Your images, their text and your notes are never sent. This data is not linked to you and is not used for tracking or advertising. See <a href="https://developers.google.com/ml-kit/ios-data-disclosure">Google’s ML Kit data disclosure</a>.</p>
 
       <h3>AI features</h3>
       <p>All AI features — semantic search, the “Ask your notes” chat, summarization and image-to-text (OCR) — run on your device. Your notes are never sent anywhere for these operations.</p>
@@ -86,6 +87,7 @@
       <h3>What data do we process?</h3>
       <p>Unless you turn on cloud backup yourself, your notes, reminders and images never leave your device; they are not sent to any server or stored on the internet. If you turn on cloud backup, a copy is written only to your own Google Drive (see “Account &amp; backup” below).</p>
       <p>The exception for ads: to show, measure and protect ads from abuse, Google AdMob may process your device’s advertising ID and standard ad data (e.g. approximate location/country, device type, ad interactions). The content of your notes is never shared with ad providers.</p>
+      <p>Image-to-text (OCR) uses Google ML Kit on your device; when you use it, ML Kit sends Google anonymous technical diagnostics (device model, versions, performance metrics, error codes, a per-installation identifier). Your images, their text and your notes are never sent.</p>
 
       <h3>AI features</h3>
       <p>All AI features — semantic search, the “Ask your notes” chat, summarization and image-to-text (OCR) — run on your device. Your notes are never sent anywhere for these operations. The AI models are downloaded once from Hugging Face (huggingface.co).</p>
